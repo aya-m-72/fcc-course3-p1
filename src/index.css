@@ -1,0 +1,74 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.layout {
+  width: 100vw;
+  height: 100vh;
+  background-color: #14151c;
+  color: #14151c;
+  font-family: "Karla";
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#quote-box {
+  padding: 40px;
+  width: 550px;
+  min-height: 200px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#author {
+  text-transform: capitalize;
+  padding: 25px 0;
+  text-align: right;
+  font-family: inter, sans-serif;
+  font-weight: 400;
+}
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#tumblr-share {
+  margin-left: 10px;
+  margin-right: auto;
+}
+#tweet-quote,
+#tumblr-share {
+  font-size: 24px;
+  width: 40px;
+}
+.btn {
+  background-color: #14151c;
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#new-quote {
+  width: 100px;
+  font-weight: 200;
+}
+footer {
+  color: #fff;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 13px;
+}
+#quote-mark {
+  margin-right: 10px;
+}
