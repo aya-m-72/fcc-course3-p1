@@ -18,9 +18,9 @@ function App() {
     >
       <div id="quote-box">
         {isLoading ? (
-          <h1>Loading...</h1>
+          <h1 style={{ color: color, transition: "all 1s ease-in-out" }}>Loading...</h1>
         ) : isError ? (
-          <h1>{isError}</h1>
+          <h1 style={{ color: color, transition: "all 1s ease-in-out" }}>{isError}</h1>
         ) : (
           <>
             <h1
